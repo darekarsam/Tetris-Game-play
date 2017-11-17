@@ -1,5 +1,4 @@
 # Tetris-Game-play
-# Simple tetris program! v0.2
 
 """
 1) This program simulates the tetris game. 
