@@ -22,13 +22,13 @@ Evaluation function: The state n is evaluated by the f(n), where f(n)=h(n),where
 
 Heuristics used in this problem:
 
-Holes: A hole is an empty space surrounded by 'x' in the board.
-Wedges: A wedge is an empty space which is covered by a 'x' only from the above.
-Aggregate height: The sum of heights of all the columns of the board.
-Maximum height: The maximum height of all the column heights. We use maximum height because we want our board to be as free as possible to accommodate the #falling pieces.
-Complete lines: Complete lines are the best and occur when there are 10 'x' in a row.
-Bumpiness of the board: The sum of absolute differences of heights of adjacent columns.
-If the maxheight of the board becomes greater than 11, we give more importance to bumpiness.
+Holes: A hole is an empty space surrounded by 'x' in the board.    
+Wedges: A wedge is an empty space which is covered by a 'x' only from the above.    
+Aggregate height: The sum of heights of all the columns of the board.    
+Maximum height: The maximum height of all the column heights. We use maximum height because we want our board to be as free as possible to accommodate the #falling pieces.    
+Complete lines: Complete lines are the best and occur when there are 10 'x' in a row.    
+Bumpiness of the board: The sum of absolute differences of heights of adjacent columns.    
+If the maxheight of the board becomes greater than 11, we give more importance to bumpiness.   
 We also tried many other heuristics like pits which mean the pit in top most layer,
 Blockades which mean the part which forms a hole or a wedge
 after all possible combinations we decided to stay with the upper ones and ignore the ones which dont work
